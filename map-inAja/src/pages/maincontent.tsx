@@ -118,7 +118,7 @@ const MainContent: React.FC = () => {
       {/* Bagian Bawah */}
       <div className="flex flex-1 w-full">
         {/* Cards Section di Kiri */}
-        <div className="w-full md:w-2/5 p-4 space-y-4 overflow-y-auto max-h-[80vh] custom-scrollbar">
+        <div className="w-full md:w-2/5 p-4 space-y-4 overflow-y-auto max-h-[90vh] custom-scrollbar">
             {places.map((place, index) => (
               <div
                 key={index}
