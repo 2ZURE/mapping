@@ -177,7 +177,7 @@ const Navbar: React.FC = () => {
             </MenuItem>
             <Divider />
             <MenuItem
-              onClick={handleMenuClose}
+              onClick={() => ("/login")}
               className="text-red-500 hover:bg-red-50"
               style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
             >
