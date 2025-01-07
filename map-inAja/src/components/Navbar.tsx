@@ -25,25 +25,25 @@ const Navbar: React.FC = () => {
     <nav className="bg-white border-gray-200">
       <div className="flex items-center justify-between mx-auto p-4">
         {/* Logo */}
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="#" className="flex items-start space-x-3 rtl:space-x-reverse -mt-3">
           <img src="/tarkiz.png" className="h-12 w-24" alt="Logo" />
         </a>
 
         {/* Menu Tengah (Desktop) */}
-        <div className="hidden md:flex md:items-center md:justify-center md:flex-1">
+        <div className="hidden md:flex md:items-center md:justify-start md:flex-1 ml-20">
           <ul className="flex space-x-8">
             <li>
-              <a href="#" className="text-blue-700 hover:text-blue-500">
+              <a href="#" className="font-medium text-blue-700 hover:text-blue-500">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-900 hover:text-blue-700">
+              <a href="#" className="font-medium text-gray-900 hover:text-blue-700">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-900 hover:text-blue-700">
+              <a href="#" className=" font-medium text-gray-900 hover:text-blue-700">
                 Services
               </a>
             </li>
