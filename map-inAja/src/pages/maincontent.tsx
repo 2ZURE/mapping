@@ -95,21 +95,21 @@ const MainContent: React.FC = () => {
 
         {/* Tab Menu dan Lihat Semua di Kanan */}
         <div className="flex ml-auto space-x-4">
-          <div className="flex space-x-4">
+          <div className="flex space-x-2 bg-gray-100 p-2 rounded-full">
             {/* <button className="text-gray-700 hover:text-blue-500">
               Semua
             </button> */}
-            <button className="text-gray-700 hover:text-blue-500">
+            <button className="px-4 py-2 text-sm font-medium bg-white text-gray-700 rounded-full shadow-md hover:text-blue-500">  
               Sekolah
             </button>
-            <button className="text-gray-700 hover:text-blue-500">
+            <button className="px-4 py-2 text-sm font-medium bg-white text-gray-700 rounded-full shadow-md hover:text-blue-500">
               Bisnis
             </button>
-            <button className="text-gray-700 hover:text-blue-500">
+            <button className="px-4 py-2 text-sm font-medium bg-white text-gray-700 rounded-full shadow-md hover:text-blue-500 ">
               Fasilitas Umum
             </button>
           </div>
-          <button className="text-sm font-medium text-blue-700 hover:underline">
+          <button className="px-4 py-2 text-sm font-medium bg-white text-gray-700 rounded-full shadow-md hover:text-blue-500 ">
             Lihat Semua
           </button>
         </div>
