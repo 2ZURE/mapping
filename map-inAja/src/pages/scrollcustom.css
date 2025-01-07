@@ -1,0 +1,44 @@
+/* Style untuk Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Lebar scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Warna track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Warna thumb */
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Warna thumb saat hover */
+}
+
+
+/* Scrollbar umum */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track (latar belakang scrollbar) */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Warna latar */
+  border-radius: 4px;
+}
+
+/* Handle (pegangan scrollbar) */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #007bff; /* Warna pegangan */
+  border-radius: 4px;
+}
+
+/* Handle saat di-hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #0056b3; /* Warna saat di-hover */
+}
+
+
+
