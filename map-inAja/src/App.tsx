@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/footer';
 import MainContent from './pages/maincontent';
 import { Routes, Route } from 'react-router-dom';
+import LoginPage from './features/login/pages/LoginPage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       {/* Gunakan Routes untuk mendukung routing */}
       <Routes>
         <Route path="/" element={<MainContent />} />
+        <Route path="/login" element={<LoginPage />} />
         {/* Tambahkan rute lainnya jika diperlukan */}
         {/* <Route path="/about" element={<About />} /> */}
         {/* <Route path="/contact" element={<Contact />} /> */}
