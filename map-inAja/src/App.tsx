@@ -14,6 +14,7 @@ function App() {
       {/* Gunakan Routes untuk mendukung routing */}
       <Routes>
         <Route path="/" element={<MainContent />} />
+        <Route path="/login" element={<LoginPage />} />
         {/* Tambahkan rute lainnya jika diperlukan */}
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<LoginPage />} />
