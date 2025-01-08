@@ -153,9 +153,11 @@ const MainContent: React.FC = () => {
         </div>
 
           <div className="bg-gray-100 p-1 rounded-full"></div>
+          <a href="/allproduct" className="flex items-center">
           <button className="text-sm font-medium text-blue-500 hover:underline">
             Lihat Semua
           </button>
+          </a>
         </div>
       </div>
 

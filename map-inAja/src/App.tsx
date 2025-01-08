@@ -4,6 +4,8 @@ import Footer from './components/footer';
 import MainContent from './pages/maincontent';
 import About from './pages/About';
 import { Routes, Route } from 'react-router-dom';
+import LoginPage from './features/login/pages/LoginPage';
+import ProductPage from './pages/Lihatsemua';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/" element={<MainContent />} />
         {/* Tambahkan rute lainnya jika diperlukan */}
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/allproduct" element={<ProductPage />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
